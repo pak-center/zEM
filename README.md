@@ -28,9 +28,14 @@
 
 Software works under z/Linux inside z/VM supervisor installed in LPAR or other z/VM. Connects with /dev/monreader assigned to Saved Sagment MONDCSS of z/VM memory area.
 
-### Software has two modes of operation like CP *MONITOR service:
+### Two operational modes quite like CP *MONITOR service:
 * Event
 * Sample
+
+### Available approaches related to data gathering:
+* just in real time sending msgs to connected clients via TCP/IP with no archive on DASD disks
+* as above but with MINIMUM Event archive inside PostgreSQL database (remotly or on site)
+* as above but with FULL Event & Sample archive inside PostgreSQL database (remotly or on site)
 
 ## Technologies
 
