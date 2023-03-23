@@ -48,6 +48,10 @@ Software works under z/Linux inside z/VM supervisor installed in LPAR or other z
 
 ## Roadmap
 
+- [x] Add README
+- [ ] Add DOCS & Graphs
+- [ ] Add source code to Github.com
+
 ## TODO
 
 ## Installation
