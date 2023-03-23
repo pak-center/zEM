@@ -2,20 +2,23 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Software versions currently being supported with security updates.
+| **e.g.** | **Stable release** | **New feature relese** | **Bug fix release** |
+| :---: |:---:|:---:|:---:|
+|1.5.3 | 1  | 5  | 3  |
+| x | x.0.0  | 1.x.1  | 2.2.x  |
+### e.g.
+- x.0.0 where x is a stable release
+- 1.x.1 where x is a new feature
+- 2.2.x where x is a bug fix reease
 
 | Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| :---: | :---: |
+| 3.1.x   | ✔️ |
+| 2.x.x   | :x:                |
+| 1.0.x   | ✔️ |
+| < 0.9.9   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Best way to report a vulnerability is just create Issue.
