@@ -20,12 +20,18 @@ z/arch Enterprise Monitor
 
 ## General Info
 
-z/arch Enterprise Monitor open source software works under z/Linux inside z/VM supervisor installed in LPAR or other z/VM. Connects with /dev/monreader assigned to Saved Sagment MONDCSS memory area in z/VM.
+**z/arch Enterprise Monitor** AKA **zEM** is open source software that sends system events in real time to users hooked up to it via an Android cell phone or an Android watch.  Supervisors in constant contact such as:
+
+* System Operators,
+* System Admins
+* Security stuff
+* others with such a requirement and with assigned access.
+
+Software works under z/Linux inside z/VM supervisor installed in LPAR or other z/VM. Connects with /dev/monreader assigned to Saved Sagment MONDCSS of z/VM memory area.
 
 ### Software has two modes of operation like CP *MONITOR service:
 * Event
 * Sample
-
 
 ## Technologies
 
