@@ -19,12 +19,14 @@
 
 ## General Info
 
-**z/arch Enterprise Monitor** AKA **zEM** is open source software that sends system events in real time to users hooked up to it via an Android cell phone or an Android watch.  Supervisors in constant contact such as:
+**z/arch Enterprise Monitor** AKA **zEM** is open source software that sends system events in real time to users hooked up to it via an Android cell phone or an Android watch. 
+
+### Supervisors in constant contact such as:
 
 * System Operators,
 * System Admins
-* Security stuff
-* others with such a requirement and with assigned access.
+* Security Stuff
+* Others with such a requirement and with assigned access.
 
 Software works under z/Linux inside z/VM supervisor installed in LPAR or other z/VM. Connects with /dev/monreader assigned to Saved Sagment MONDCSS of z/VM memory area.
 
