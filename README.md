@@ -20,12 +20,21 @@ z/arch Enterprise Monitor
 
 ## General Info
 
+z/arch Enterprise Monitor open source software works under z/Linux inside z/VM supervisor installed in LPAR or other z/VM. Connects with /dev/monreader assigned to Saved Sagment MONDCSS memory area in z/VM.
+
+### Software has two modes of operation like CP *MONITOR service:
+* Event
+* Sample
+
+
 ## Technologies
 
 * IBM mainframe
 * z/VM 
 * z/Linux
 * PostgreSQL database
+* REST
+* Rust (Actix Web, Tokio)
 
 ## Usage
 
