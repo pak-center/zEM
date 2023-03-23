@@ -46,11 +46,24 @@ Software works under z/Linux inside z/VM supervisor installed in LPAR or other z
 
 ## Features
 
+| Feature | % Progress | Status |
+| :---    | :---       | :---:  |
+| Event Records | # | Ongoing  |
+| Sample Records |  | Awaits |
+| Conf file handling | ## | Ongoing |
+| READ /dev/ module |  | Ongoing |
+| TCP/IP server module | | Awaits |
+| REST module |  | Awaits  |
+| Database module | | Ongoing |
+| Log module |  | Ongoing |
+| Authorization module |  | Awaits |
+| Beautify code | | Awaits |
+
 ## Roadmap
 
 - [x] Add README
 - [ ] Add DOCS & Graphs
-- [ ] Add source code to Github.com
+- [ ] Add source code to Github
 
 ## TODO
 
