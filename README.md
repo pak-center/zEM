@@ -54,15 +54,15 @@ Software works under z/Linux inside z/VM supervisor installed in LPAR or other z
 
 | Feature | % Progress | Status |
 | :---    | :---       | :---:  |
-| Event Records | # | Ongoing  |
-| Sample Records |  | Awaits |
+| z/VM V7.3 Event Records | # | Ongoing  |
+| z/VM V7.3 Sample Records |  | Awaits |
 | Config file handling | ## | Ongoing |
-| READ /dev/ module | ## | Ongoing |
-| TCP/IP server module |  | Awaits |
-| REST module |  | Awaits  |
-| Database module | ## | Ongoing |
-| Log module | # | Ongoing |
-| Authorization module |  | Awaits |
+| non-blocking READ | ## | Ongoing |
+| TCP/IP server |  | Awaits |
+| RESTfull |  | Awaits  |
+| PostgreSQL database | ## | Ongoing |
+| Log | # | Ongoing |
+| Authorization |  | Awaits |
 | Beautify code | | Awaits |
 
 ## Roadmap
