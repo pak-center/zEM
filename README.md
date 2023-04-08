@@ -38,6 +38,7 @@ Software works under z/Linux inside z/VM supervisor installed in LPAR or other z
 * just in real time sending msgs to connected clients via TCP/IP with no archive on DASD disks
 * as above but with MINIMUM Event archive inside PostgreSQL database (remotly or on site)
 * as above but with FULL Event & Sample archive inside PostgreSQL database (remotly or on site)
+* Separate database for Event & Sample records (every record type inside their own table)
 
 ## Technologies
 
